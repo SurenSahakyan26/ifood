@@ -1,0 +1,237 @@
+.header {
+    padding: 4px 97px 20px 157px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+}
+.food_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 47px;
+}
+.burger_block {
+    padding-left: 47px;
+    margin-top: 19px;
+}
+.burger_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.header_input {
+    display: flex;
+    align-items: center;
+    max-width: 408px;
+    width: 100%;
+}
+.food_search {
+    max-width: 408px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-size: 22px;
+    border-bottom: 2px solid #B5B5B5;
+    outline: 0;
+    padding: 10px 0;
+    /*border: 2px solid #41AA03;*/
+    /*transform: rotate(-180deg);*/
+}
+.header_signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 349px;
+}
+.heart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heart_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.basket_info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.user_info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal {
+    display: flex;
+    justify-content: space-around;
+    padding: 73px 35px;
+    width: 100%;
+    max-width: 1850px;
+}
+.personal-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    margin: 0;
+    color: #000000;
+}
+.personal_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 395px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    padding: 29px 9px 30px 13px;
+}
+.personal_text {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+.arrow-right {
+    margin-left: 10px;
+}
+
+.personal_information {
+    margin-left: 120px;
+    width: 100%;
+    max-width: 1336px;
+    /*border-bottom: 1px solid #B3AFAF;*/
+}
+.user1 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 260px 26px 23px;
+}
+.user2 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    margin-left: 160px;
+    padding: 12px 260px 26px 23px;
+}
+.personal_infoBlock {
+    margin-top: 86px;
+}
+.personal_infoBlock1 {
+    margin: 75px 0 65px 0;
+}
+.user3 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 260px 26px 23px;
+}
+.user4 {
+    margin-left: 160px;
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 260px 26px 23px;
+}
+.user5 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 260px 26px 23px;
+}
+.user6 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 211px 26px 23px;
+}
+
+.user7 {
+    font-size: 20px;
+    outline: 0;
+    background: #E9E9E9;
+    border: none;
+    padding: 12px 211px 26px 23px;
+}
+.age1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    background: #E9E9E9;
+    margin-bottom: 185px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ;
+}
+.age2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    background: #E9E9E9;
+    margin-bottom: 185px;
+}
+.registration_info {
+    margin-top: 220px;
+    border-top: 1px solid #B3AFAF;
+}
+.age_block {
+    margin-top: 57px;
+    display: flex;
+}
+.age2 {
+    margin-left: 140px;
+}
+.registr_title {
+    margin-top: 68px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #000000;
+}
+.save_link {
+    padding: 23px 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    background: #41AA03;
+    border-radius: 53.2933px;
+}

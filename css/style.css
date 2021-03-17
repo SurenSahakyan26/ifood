@@ -1,0 +1,231 @@
+
+
+/*body*/
+/*{*/
+/*    max-width: 1920px;*/
+/*    width: 100%;*/
+/*    box-sizing: border-box;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+.header {
+    padding: 4px 97px 20px 157px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+}
+.food_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 47px;
+}
+.burger_block {
+    padding-left: 47px;
+    margin-top: 19px;
+}
+.burger_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.header_input {
+    display: flex;
+    align-items: center;
+    max-width: 408px;
+    width: 100%;
+}
+.food_search {
+    max-width: 408px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-size: 22px;
+    border-bottom: 2px solid #B5B5B5;
+    outline: 0;
+    padding: 10px 0;
+    /*border: 2px solid #41AA03;*/
+    /*transform: rotate(-180deg);*/
+}
+.header_signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 349px;
+}
+.heart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heart_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.basket_info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.user_info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.try {
+    background-image: url("../img/triangle.png");
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+    position: absolute;
+    width: 100%;
+    /*height: 556px;*/
+}
+.try_info {
+padding: 186px 130px 132px 33px;
+}
+.tri_title {
+    max-width: 459px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.try_link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 10px 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    text-decoration: none;
+}
+.slideshow {
+    display: flex;
+}
+.image_food {
+    max-width: 479px;
+    margin-top: 23px;
+    padding-left: 35px;
+}
+.pizza {
+    margin-top: 33px;
+}
+.stayq {
+    object-fit: contain;
+}
+.footer {
+    max-width: 1711px;
+    display: flex;
+    justify-content: space-between;
+    padding: 66px 127px 124px 82px;
+    background: #282828;
+    border-bottom: 1px solid #B3AFAF;;
+}
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1011px;
+    width: 100%;
+}
+.footer_logo {
+    width: 100%;
+    max-width: 581px;
+}
+.footer_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E5E5E5;
+}
+.footer_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E9E9E9;
+}
+
+.footer_item{
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C4C4C4;
+    list-style-type: none;
+}
+.footer_directory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #282828;
+    padding: 20px 43px 20px 35px;
+}
+.footer_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 26px;
+    background: #FFFBFB;
+    border-radius: 221px;
+    max-width: 343px;
+    width: 100%;
+}
+.footer_social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 28px;
+    max-width: 266px;
+    width: 100%;
+    background: #FFFBFB;
+    border-radius: 221px;
+}
+.forLunch_show {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 1798px;
+    margin: 0 auto;
+}
+.forLunch_page {
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #358506;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
