@@ -1,0 +1,74 @@
+.register {
+    width: 100%;
+    max-width: 713px;
+    padding: 81px 85px 201px 86px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 544px;
+    text-align: end;
+}
+
+.container_block {
+
+}
+
+.register_input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #B6B6B6;
+    margin-bottom: 32px;
+    padding: 35px 26px;
+    width: 100%;
+    max-width: 500px;
+    background: #F3F3F3;
+    outline: 0;
+    border: none;
+}
+.Rem_text {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+.Rem_width {
+    width: 40px;
+    height: 40px;
+    background: #F3F3F3;
+    border: none;
+}
+.checked_block {
+    display: flex;
+    align-items: center;
+}
+.Reg_Link {
+    margin-top: 89px;
+    text-align: center;
+    padding: 26px 26px;
+    background: #4A8D16;
+    border-radius: 95px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.container_title {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 54px;
+    color: #000000;
+}

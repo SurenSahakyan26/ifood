@@ -1,0 +1,103 @@
+.login {
+    text-align: end;
+    width: 100%;
+    max-width: 713px;
+    padding: 86px;
+}
+
+.container {
+    width: 100%;
+    max-width: 542px;
+    margin: 0 auto;
+}
+.login_title {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 54px;
+    color: #000000;
+}
+.email_info{
+    padding: 31px;
+    width: 100%;
+    max-width: 542px;
+    background: #F3F3F3;
+    font-size: 22px;
+    outline: 0;
+    border: none;
+}
+.pass_info {
+    margin-top: 32px;
+    padding: 31px;
+    width: 100%;
+    max-width: 542px;
+    background: #F3F3F3;
+    font-size: 22px;
+    outline: 0;
+    border: none;
+}
+.check {
+    margin-top: 32px;
+}
+.remember {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+.forgot_pass {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    color: #8F8F8F;
+}
+a{
+    text-decoration: none;
+}
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 542px;
+}
+.login_block {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login_info {
+    padding: 27px 26px;
+    width: 100%;
+    max-width: 542px;
+    background: #4A8D16;
+    border-radius: 95px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.registr {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #4A8D16;
+}
+.check_style {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background: #F3F3F3;
+}
+.check_flex {
+    display: flex;
+    align-items: center;
+}
