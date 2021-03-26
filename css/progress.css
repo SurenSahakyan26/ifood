@@ -4,13 +4,14 @@
     max-width: 1385px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .sircle_item {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /*max-width: 113px;*/
+    max-width: 200px;
     width: 100%;
     height: auto;
 }

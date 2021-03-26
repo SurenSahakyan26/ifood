@@ -101,3 +101,11 @@ a{
     display: flex;
     align-items: center;
 }
+
+.login_image {
+    max-width: 79px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}

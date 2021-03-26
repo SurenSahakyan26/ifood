@@ -1,4 +1,7 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     padding: 4px 97px 20px 157px;
     background: #FFFFFF;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
@@ -359,4 +362,24 @@ form label {
     width: 100%;
     background: #FFFBFB;
     border-radius: 221px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #fff;
+    border:1px solid #000;
+    color: #000;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #000;
+    color:#000;
+    border-radius: 5px;
 }

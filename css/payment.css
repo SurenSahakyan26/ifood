@@ -1,10 +1,4 @@
-
-
-
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     padding: 4px 97px 20px 157px;
     background: #FFFFFF;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
@@ -87,54 +81,53 @@
     flex-direction: column;
     align-items: center;
 }
-.favorites_text {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 26px;
-    color: #4A8D16;
-}
-.favorites_info{
-    margin: 41px 36px;
-}
-.favorites_catalog {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 46px;
-    line-height: 53px;
-    color: #000000;
-}
-.catalog_item {
-    margin-bottom: 41px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
-    width: 100%;
-    max-width: 424px;
+.sign {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 21px 27px 108px 27px;
 }
-.catalog_card {
-    width: 100%;
-    max-width: 1822px;
-    /*margin: 0 auto;*/
-    padding:41px 55px 0 55px ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+a{
+    text-decoration: none;
 }
-.catalog_text{
+.client {
+    padding: 63px 0 0 32px;
+}
+.client_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000;
+}
+.client_title {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 64px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.container_client_info {
+    width: 100%;
+    max-width: 1842px;
+    margin-bottom: 40px;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #B3AFAF;
+}
+.title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 55px;
     color: #000000;
 }
 .footer {
-    margin-top: 35px;
+    margin-top: 44px;
     max-width: 1711px;
     display: flex;
     justify-content: space-between;
@@ -202,4 +195,72 @@
     width: 100%;
     background: #FFFBFB;
     border-radius: 221px;
+}
+.delivery_price {
+    width: 100%;
+    max-width: 944px;
+    display: flex;
+    justify-content: space-between;
+}
+.price_minut {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 293px;
+}
+.city{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+.price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+.minutes{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+.delivery_price1 {
+    width: 100%;
+    max-width: 944px;
+    display: flex;
+    justify-content: space-between;
+}
+.price_minut1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 293px;
+}
+.city1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+.price1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+.minutes1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
 }

@@ -1,0 +1,738 @@
+@media screen and (min-width: 1920px) and (max-width: 2500px){
+    .accordion_block {
+        display: none;
+    }
+    .link_personal {
+        display: none;
+    }
+    .footer_1,.footer_2,.footer_3 {
+        display: none;
+    }
+
+}
+
+/*///////////////////////////*/
+
+@media screen and (min-width: 920px) and (max-width: 1919px) {
+    .footer_1,.footer_2,.footer_3 {
+        display: none;
+    }
+    .header {
+        padding: 4px 13px 20px 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+    }
+    .link_personal {
+        display: none;
+    }
+    .personal-title {
+        margin-top: 25px;
+    }
+    .personal_information {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .age_block {
+      text-align: -webkit-center;
+    }
+
+    .personal_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .personal {
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .user1 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+        margin-bottom: 10px;
+    }
+    .user2 {
+        margin: 0;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+    }
+    .user4 {
+        margin: 0;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+    }
+    .user3 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+        margin-bottom: 10px;
+    }
+    .age1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 520px;
+        background: #E9E9E9;
+        margin-bottom: 27px;
+    }
+    .age2 {
+        margin: 0 0 20px 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 520px;
+        background: #E9E9E9;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 255px 26px 23px;
+    }
+    .age_block {
+        display: block;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        text-align: -webkit-center;
+    }
+    .footer_logo {
+        margin: 0 auto;
+    }
+    .footer_info {
+        display: block;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1199px){
+    .burger_block {
+        margin-right: 25px;
+    }
+    .footer_1,.footer_2,.footer_3 {
+        display: none;
+    }
+    .burger_block p {
+        display: none;
+    }
+    .food_search {
+        margin-left: 43px;
+        max-width: 312px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+        border: none;
+        font-size: 22px;
+        border-bottom: 2px solid #B5B5B5;
+        outline: 0;
+        padding: 10px 0;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 220px!important;
+    }
+    .header_logo {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-left: 47px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 919px) {
+    .header {
+        padding: 13px;
+    }
+    .header_signin {
+        margin-left: 30px;
+    }
+    .burger_block p {
+        display: none;
+    }
+    .burger_block {
+        margin-right: 20px;
+    }
+    .food_search {
+        font-size: 13px !important;
+    }
+    .footer_1,.footer_2,.footer_3 {
+        display: none;
+    }
+    .link_personal {
+        display: none;
+    }
+    .personal {
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .personal_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .user2 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        margin: 10px 0 0 0 ;
+        padding: 12px 260px 26px 23px;
+    }
+    .user4 {
+        margin: 10px 0 0 0 ;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+    }
+    .age_block {
+        display: block;
+    }
+    .age2 {
+        margin: 10px 0 23px 0;
+    }
+    .age1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 520px;
+        background: #E9E9E9;
+        margin-bottom: 26px;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 257px 26px 23px;
+    }
+    .personal-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer_logo {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer_info {
+        display: block;
+    }
+    .food_search {
+        margin-left: 43px;
+        max-width: 312px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+        border: none;
+        font-size: 22px;
+        border-bottom: 2px solid #B5B5B5;
+        outline: 0;
+        padding: 10px 0;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 220px!important;
+    }
+    .header_logo {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-left: 47px
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .footer_1,.footer_2,.footer_3 {
+        display: none;
+    }
+    .link_personal {
+        display: none;
+    }
+    .personal_information {
+        margin: 0;
+    }
+    .personal {
+        text-align: center;
+        padding: 73px 17px;
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .personal_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .user2 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        margin: 10px 0 0 0 ;
+        padding: 12px 260px 26px 23px;
+    }
+    .user4 {
+        margin: 10px 0 0 0 ;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 260px 26px 23px;
+    }
+    .age_block {
+        display: block;
+    }
+    .age_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .age2 {
+        margin: 10px 0 23px 0;
+    }
+    .age1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 520px;
+        background: #E9E9E9;
+        margin-bottom: 26px;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 257px 26px 23px;
+    }
+    .personal-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .user6 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 189px 26px 23px;
+    }
+    .user7 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 190px 26px 23px;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 252px 26px 23px;
+    }
+    .footer_info {
+        display: block;
+        text-align: center;
+        max-width: 1011px;
+        width: 100%;
+    }
+    .footer {
+        display: block;
+    }
+    .footer_logo {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .food_search {
+        display: none;
+    }
+    .header {
+        padding: 4px 97px 20px 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+    }
+    .search_absolute {
+        width: 27px;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        position: absolute;
+        left: 317px;
+        top: 24px;
+    }
+    .header_signin span {
+        display: none;
+    }
+    .heart a img:nth-child(1) {
+        display: none;
+    }
+    .header_signin {
+        max-width: 139px;
+        width: 100%;
+    }
+    .burger_block p {
+        display: none;
+    }
+
+    .personal-title {
+        text-align: center;
+    }
+    .registr_title {
+        text-align: center;
+    }
+    .footer_social {
+        margin-left: 10px;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .footer {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .footer_info {
+        display: block;
+    }
+    .link_personal {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+
+    .personal_information {
+        margin: 0;
+    }
+    .personal {
+        text-align: center;
+        padding: 73px 17px;
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .user1 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .user2 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        margin: 10px 0 0 0 ;
+        padding: 12px 18px 26px 23px;
+    }
+    .user3 {
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .user4 {
+        margin: 10px 0 0 0 ;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .age_block {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .age2 {
+        max-width: 267px;
+        margin: 10px 0 23px 0;
+    }
+    .age1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 273px;
+        background: #E9E9E9;
+        margin-bottom: 26px;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 20px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 79px 26px 23px!important; ;
+    }
+    .save_link {
+        padding: 23px 75px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 55px;
+        color: #FFFFFF;
+        background: #41AA03;
+        border-radius: 53.2933px;
+    }
+    .shipping_link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 41px;
+        color: #41AA03;
+    }
+    .shiping_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 55px;
+        color: #000000;
+    }
+    .personal-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        color: #000000;
+        margin-top: 20px;
+    }
+    .user6 {
+        font-size: 13px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .user7 {
+        font-size: 13px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .user5 {
+        margin-bottom: 38px;
+        font-size: 13px;
+        outline: 0;
+        background: #E9E9E9;
+        border: none;
+        padding: 12px 18px 26px 23px;
+    }
+    .footer_info {
+        display: block;
+        text-align: center;
+        max-width: 1011px;
+        width: 100%;
+    }
+    .footer {
+        display: block;
+    }
+    .footer_logo {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .food_search {
+        display: none;
+    }
+    .header {
+        padding: 4px 97px 20px 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+    }
+    .search_absolute {
+        width: 27px;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        position: absolute;
+        left: 317px;
+        top: 24px;
+    }
+    .header_signin span {
+        display: none;
+    }
+    .heart a img:nth-child(1) {
+        display: none;
+    }
+    .header_signin {
+        max-width: 139px;
+        width: 100%;
+    }
+    .burger_block p {
+        display: none;
+    }
+    .personal-title {
+        text-align: center;
+    }
+    .registr_title {
+        text-align: center;
+    }
+    .footer_social {
+        margin-left: 10px;
+    }
+    .registr_title {
+        margin-top: 68px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 41px;
+        color: #000000;
+    }
+    .footer {
+        display: none;
+    }
+    .accordion {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000 !important;
+    }
+    .accordion:after {
+        content: '\002B';
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 22px;
+        float: right;
+        margin-left: 5px;
+    }
+    .footer_card {
+        margin-bottom: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 26px;
+        background: #FFFBFB;
+        border-radius: 221px;
+        max-width: 193px;
+        width: 100%;
+    }
+    .footer_social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 28px;
+        max-width: 176px;
+        width: 100%;
+        background: #FFFBFB;
+        border-radius: 221px;
+    }
+    .footer_directory {
+        display: block;
+    }
+    .personal-title {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: -111px;
+    }
+    .link_personal {
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        border-radius: 2px;
+        width: 100%;
+        max-width: 300px;
+    }
+    .personalDate_link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #358506;
+    }
+    .show_logo {
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+    }
+    .header_logo {
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        padding-left: 47px;
+    }
+    .search_absolute {
+        width: 27px;
+        /* width: 100%; */
+        /* height: 100%; */
+        position: absolute;
+        left: 194px;
+        top: 10px;
+    }
+    .header {
+        padding: 4px 3px 20px 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+    }
+    .burger_block {
+        padding-left: 47px;
+        margin-top: 13px;
+    }
+    .personal_block {
+        display: none;
+    }
+    .footer_1,.footer_2,.footer_3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .footer_2 {
+        margin-top: 70px;
+    }
+    .footer_directory {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .registration_info {
+        margin-top: 69px;
+        border-top: 1px solid #B3AFAF;
+    }
+}

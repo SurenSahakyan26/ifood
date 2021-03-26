@@ -25,61 +25,172 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
+//
+// $('.responsive ').slick({
+//     dots: false,
+//     // prevArrow: $('.prev'),
+//     // nextArrow: $('.next'),
+//     infinite: false,
+//     speed: 300,
+//     slidesToShow: 7,
+//     slidesToScroll: 7,
+//     responsive: [
+//         {
+//             breakpoint: 1199,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 4,
+//                 infinite: true,
+//                 dots: false
+//             }
+//         },
+//         {
+//             breakpoint: 1500,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 2,
+//                 infinite: true,
+//                 dots: false
+//             }
+//         },
+//         {
+//             breakpoint: 1024,
+//             settings: {
+//                 slidesToShow: 3,
+//                 slidesToScroll: 3,
+//                 infinite: true,
+//                 dots: false
+//             }
+//         },
+//         {
+//             breakpoint: 600,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 2
+//             }
+//         },
+//         {
+//             breakpoint: 480,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             },},
+//         {
+//
+//             breakpoint: 320,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             },
+//
+//         }
+//         // You can unslick at a given breakpoint now by adding:
+//         // settings: "unslick"
+//         // instead of a settings object
+//     ]
+// });
+//
+// $('.responsive1 ').slick({
+//     dots: false,
+//     // prevArrow: $('.prev'),
+//     // nextArrow: $('.next'),
+//     infinite: false,
+//     speed: 300,
+//     slidesToShow: 7,
+//     slidesToScroll: 7,
+//     responsive: [
+//         {
+//             breakpoint: 1200,
+//             settings: {
+//                 slidesToShow: 4,
+//                 slidesToScroll: 4,
+//                 infinite: true,
+//                 dots: false
+//             }
+//         },
+//         {
+//             breakpoint: 1500,
+//             settings: {
+//                 slidesToShow: 4,
+//                 slidesToScroll: 4,
+//                 infinite: true,
+//                 dots: false
+//             }
+//         },
+//         {
+//             breakpoint: 600,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 2
+//             }
+//         },
+//         {
+//             breakpoint: 480,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         },
+//         {
+//             breakpoint: 576,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         },
+//         {
+//             breakpoint: 320,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         }
+//
+//         // You can unslick at a given breakpoint now by adding:
+//         // settings: "unslick"
+//         // instead of a settings object
+//     ]
+// });
 
-$('.responsive ').slick({
-    dots: true,
+let closebtn = document.querySelector('.closebtn')
+closebtn.addEventListener('click', closeNav)
+function openNav() {
+    document.getElementById("myNav").style.width = "35%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+
+
+
+
+$('.responsive').slick({
+    dots: false,
     prevArrow: $('.prev'),
     nextArrow: $('.next'),
     infinite: false,
     speed: 300,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1200,
             settings: {
-                slidesToShow: 5,
-                slidesToScroll: 5,
+                slidesToShow: 4,
+                slidesToScroll: 4,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
-
-$('.responsive1 ').slick({
-    dots: true,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
-    infinite: false,
-    speed: 300,
-    slidesToShow: 7,
-    slidesToScroll: 7,
-    responsive: [
         {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
@@ -92,8 +203,15 @@ $('.responsive1 ').slick({
         {
             breakpoint: 480,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 320,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -103,9 +221,18 @@ $('.responsive1 ').slick({
 });
 
 
+var acc = document.getElementsByClassName("accordion");
+var a;
 
-
-
-
-
+for (a = 0; a < acc.length; a++) {
+    acc[a].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+};
 

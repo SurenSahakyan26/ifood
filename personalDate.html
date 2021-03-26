@@ -41,13 +41,190 @@
 <div class="container">
     <div class="date_input">
         <h3 class="date_order">պատվեր</h3>
-        <p class="date_text">անձնական տվյալներ</p>
-        <div class="inputs_block">
+        <a class="date_text">անձնական տվյալներ</a>
+        <div class="inputs_flex">
+            <div class="inputs_block">
+                <form action="">
+                    <input class="dates_input" type="text" name="name" id="name" placeholder="Անուն">
+                    <input class="dates_input dates_input1" type="tel" name="tel" id="tel1" placeholder="Հեռախոսահամար">
+                    <input class="dates_input" type="tel" name="tel" id="tel2" placeholder="Ստացողի հեռախոսահամար">
+                </form>
+            </div>
+            <div class="date_basket">
+            <div class="basket_info_1">
+                <div class="basket_order">
+                    <h3 class="order_title">
+                        Ձեր պատվերը
+                    </h3>
+                    <a class="order_link" href="">Ձեր զամբյուղը</a>
+                </div>
+                <div class="basket_product">
+                    <p class="product_text">Ապրանքներ (1)</p>
+                    <p class="product_price">600 դր.</p>
+                </div>
+                <div class="sum">
+                    <p class="sum_text">Վճարման գումարը</p>
+                    <p class="sum_price">600 դր.</p>
+                </div>
+                <a href="" class="basket_link">Պատվիրել</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="address">
+        <h3 class="delivery_address">առաքման հասցե</h3>
+        <div class="address_block">
             <form action="">
-                <input class="dates_input" type="text" name="name" id="name" placeholder="Անուն">
-                <input class="dates_input dates_input1" type="tel" name="tel" id="tel1" placeholder="Հեռախոսահամար">
-                <input class="dates_input" type="tel" name="tel" id="tel2" placeholder="Ստացողի հեռախոսահամար">
+                <div class="address_item">
+                    <input type="text" name="name" id="city" placeholder="Քաղաք՝">
+                    <input type="text" name="name" id="community" placeholder="Համայնք՝՝">
+                    <input type="text" name="name" id="street" placeholder="Փողոց՝՝">
+                </div>
             </form>
+        </div>
+        <div class="address_block1">
+            <form action="">
+                <input class="address_inputs" type="text" name="building" id="building" placeholder="Շենք՝">
+                <input class="address_inputs" type="text" name="entrance" id="entrance" placeholder="Մուտք՝՝">
+                <input class="address_inputs" type="text" name="floor" id="floor" placeholder="Հարկ՝">
+                <input class="address_inputs" type="text" name="float" id="float" placeholder="Հարկ՝">
+            </form>
+        </div>
+    </div>
+    <div class="comments">
+        <h4 class="comments_info">
+            <a href="">Լրացուցիչ մեկնաբանություն</a>
+        </h4>
+        <div class="confirm">
+            <a class="comments_link" href="">Հաստատել</a>
+            <a class="comments_link" href="">Չեղարկել</a>
+        </div>
+    </div>
+    <div class="delivery_date">
+        <h3 class="delivery_date_text">
+            <a href="">առաքման ամսաթիվը եւ ժամանակը</a>
+        </h3>
+        <div class="delivery_info">
+            <form action="" >
+                <div class="delivery_block">
+                        <input type="date">
+                    <div class="delivery_time">
+                        <input type="time"  id="appts" name="appts">
+                        <input type="time"  id="appt" name="appt">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="payment_system">
+        <div class="payment_item">
+            <div class="payment_info">
+                <h4 class="payment_title">Arca</h4>
+                <div class="payment_card">
+                    <a href=""> <img src="img/visa.png" alt=""></a>
+                    <a href=""> <img src="img/mastercard.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="payment_item">
+            <div class="payment_info">
+                <h4 class="payment_title">Paypal</h4>
+                <div class="payment_card">
+                    <a href=""> <img src="img/paypal.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="payment_item">
+            <div class="payment_info">
+                <h4 class="payment_title">IDram</h4>
+                <div class="payment_card">
+                    <a href=""> <img src="img/idream.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="payment_item">
+            <div class="payment_info">
+                <h4 class="payment_title">Կանխիկ</h4>
+                <div class="payment_card">
+                    <a href=""> <img src="img/price.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="payment_bottom"></div>
+    <a class="payment_link1" href="comment.html">Պատվերին ավելացնել մեկնաբանություն կամ շնորհավորական բացիկ
+    </a>
+</div>
+<div class="footer">
+    <div class="footer_logo">
+        <img src="img/footerlogo.png" alt="">
+        <p class="footer_text"> IFOOD, 2020. Բոլոր իրավունքները պաշտպանված են
+            գաղտնիության քաղաքականության օգտագործման պայմանները
+            Կայքի մշակում — նոր կայք</p>
+    </div>
+    <div class="footer_info">
+        <ul class="footer_list">
+            <h3 class="footer_title">
+                Ընկերության մասին
+            </h3>
+            <a href="">
+                <li class="footer_item">
+                    IFOOD - ի մասին
+                </li>
+            </a>
+        </ul>
+        <ul class="footer_list">
+            <h3 class="footer_title">
+                Օգնության կենտրոն
+            </h3>
+            <a href="">
+                <li class="footer_item">
+                    Հաճախ տրվող հարցեր և պատասխաններ
+                </li>
+            </a>
+            <a href="">
+                <li class="footer_item">
+                    Առաքում եւ վճարում
+                </li>
+            </a>
+            <a href="">
+                <li class="footer_item">
+                    Կորպորատիվ հաճախորդներին
+                </li>
+            </a>
+        </ul>
+        <ul class="footer_list">
+            <h3 class="footer_title">
+                Կապ
+            </h3>
+            <a href="tel:094-27-17-40">
+                <li class="footer_item">+374 (11) 53 88 88</li>
+            </a>
+            <a href="tel:094-27-17-40">
+                <li class="footer_item">+374 (98) 53 88 88</li>
+            </a>
+            <a href="tel:094-27-17-40">
+                <li class="footer_item">+374 (33) 53 88 88</li>
+            </a>
+            <a href="tel:094-27-17-40">
+                <li class="footer_item">+374 (99) 53 88 88</li>
+            </a>
+        </ul>
+    </div>
+</div>
+<div class="footer_icon">
+    <div class="footer_directory">
+        <div class="footer_card">
+            <a href=""><img src="img/visa.png" alt=""></a>
+            <a href=""><img src="img/paypal.png" alt=""></a>
+            <a href=""><img src="img/mastercard.png" alt=""></a>
+            <a href=""><img src="img/idream.png" alt=""></a>
+        </div>
+        <div class="footer_social">
+            <a href=""><img src="img/facebook.png" alt=""></a>
+            <a href=""><img src="img/instagram.png" alt=""></a>
+            <a href=""><img src="img/youtobe.png" alt=""></a>
+            <a href=""><img src="img/google.png" alt=""></a>
         </div>
     </div>
 </div>

@@ -1,10 +1,59 @@
 
+.header_language {
+    padding: 4px 72px;
+    background: #E0E0E0;
+}
+.language_select {
+    display: flex;
+    width: 100%;
+    max-width: 160px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 90%;
+}
 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 7%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    margin-bottom: 100px;
     padding: 4px 97px 20px 157px;
     background: #FFFFFF;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
@@ -87,54 +136,53 @@
     flex-direction: column;
     align-items: center;
 }
-.favorites_text {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 26px;
-    color: #4A8D16;
-}
-.favorites_info{
-    margin: 41px 36px;
-}
-.favorites_catalog {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 46px;
-    line-height: 53px;
-    color: #000000;
-}
-.catalog_item {
-    margin-bottom: 41px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
-    width: 100%;
-    max-width: 424px;
+.sign {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 21px 27px 108px 27px;
 }
-.catalog_card {
-    width: 100%;
-    max-width: 1822px;
-    /*margin: 0 auto;*/
-    padding:41px 55px 0 55px ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+a{
+    text-decoration: none;
 }
-.catalog_text{
+.client {
+    padding: 63px 0 0 32px;
+}
+.client_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #41AA03;
+}
+.client_title {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 64px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.container_client_info {
+    width: 100%;
+    max-width: 1842px;
+    margin-bottom: 40px;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #B3AFAF;
+}
+.title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 55px;
     color: #000000;
 }
 .footer {
-    margin-top: 35px;
+    margin-top: 44px;
     max-width: 1711px;
     display: flex;
     justify-content: space-between;
@@ -202,4 +250,82 @@
     width: 100%;
     background: #FFFBFB;
     border-radius: 221px;
+}
+.container {
+    padding: 50px 32px;
+    width: 100%;
+    max-width: 672px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.11);
+}
+.newUser_info {
+
+}
+.user_select {
+    padding: 5px 518px 11px 14px;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    background-color: #E9E9E9;
+}
+.select_text {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: start;
+    color: #AAA9A9;
+}
+.user_info11 {
+    width: 100%;
+    max-width: 597px;
+    padding: 9px  11px 14px;
+    background-color: #E9E9E9;
+}
+.userOne {
+    width: 100%;
+    max-width: 254px;
+    padding: 20px 19px;
+    background: #E9E9E9;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+}
+.usertwo {
+    width: 100%;
+    max-width: 292px;
+}
+.user_info1,.user_info2,.user_user3 {
+    margin-left: -16px;
+    margin-right: 36px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.user_info2 {
+    margin-bottom: 10px;
+}
+.user_info1 {
+    margin-bottom: 10px;
+}
+.user_info11 {
+    margin-bottom: 10px;
+}
+.newUser_link {
+    margin-top: 40px;
+}
+.link_info {
+    padding: 10px 255px;
+    background: #4A8D16;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
 }

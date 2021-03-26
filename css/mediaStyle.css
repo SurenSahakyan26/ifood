@@ -1,0 +1,687 @@
+
+@media screen and (max-width: 1920px){
+    .accordion_block {
+        display: none;
+    }
+    .heart a:nth-child(2) {
+        display: block;
+    }
+    .begin_shopping {
+        display: none;
+    }
+    .heart_link_info {
+        display: none;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .footer_directory p {
+        display: none;
+    }
+    .small {
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+      .header_logo {
+          display: flex;
+          align-items: center;
+          flex-direction: row-reverse;
+          margin-right: 35px;
+      }
+    .burger_block {
+        padding-left: 47px;
+        margin: 10px !important;
+    }
+    .burger_block p {
+        display: none;
+    }
+      .begin_shopping {
+          display: none;
+      }
+      .language_select {
+        margin-left: 86%;
+      }
+      .header {
+        padding: 4px 97px 20px 35px;
+      }
+      .burger_block {
+        padding-left: 20px;
+      }
+      .header_signin {
+        max-width: 264px;
+      }
+      .tri_title {
+        font-size: 46px;
+      }
+      .try_info {
+        padding: 29.5px;
+     }
+      .next1 {
+        top: 28% !important;
+     }
+      .try {
+        background-size: 469px;
+      }
+      .slick-prev {
+        left: -1px!important;
+        top: 78px !important;
+      }
+      .slick-next {
+        top: 32% !important;
+        left: 97% !important;
+      }
+       .food_info_card {
+
+       }
+       .sale_info {
+        font-size: 48px;
+       }
+       .sale_info1 {
+         font-size: 48px;
+       }
+       .food_itemTitle {
+         font-size: 33px;
+       }
+       .image_food {
+         display: none;
+       }
+       .try {
+          display: none;
+       }
+       .delivery_map_block {
+         max-width: 1060px;
+         width: 100%;
+       }
+      .delivery_map_block1 {
+           width: 100%;
+          max-width: 1060px;
+        }
+      .map_card {
+          width: 100%;
+          max-width: 270px;
+       }
+       .map_title {
+          font-size: 22px;
+      }
+       .map_circle {
+           right: 53px;
+       }
+        .map_circle1 {
+            right: 14px;
+        }
+        .map_circle2 {
+            right: 24px;
+        }
+        .map_circle4 {
+            right: 20px;
+        }
+
+        .footer_logo {
+            display: none;
+        }
+         .accordion_block {
+             display: none;
+         }
+        .delivery_map_block {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* margin: 0 auto; */
+            max-width: 323px;
+            width: 100%;
+        }
+        .map_card  {
+            margin-bottom: 30px;
+        }
+        .delivery_map_block1 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* margin: 0 auto; */
+            max-width: 323px;
+            width: 100%;
+        }
+        /*.heart a img:nth-child(1) {*/
+        /*    display: none;*/
+        /*}*/
+        .heart_link_info {
+            display: none;
+        }
+        .footer_directory p {
+            display: none;
+            }
+        .small {
+            display: none;
+        }
+}
+
+
+
+@media  screen and (max-width: 920px) {
+    .begin_shopping{
+        display: none;
+    }
+   .try {
+       background-size: 279px;
+   }
+    .tri_title {
+        font-size: 11px;
+    }
+    .next1 {
+        top: 17% !important;
+    }
+    .language_select {
+        margin-left: 80%;
+    }
+    .header_logo {
+        padding-left: 0;
+    }
+    .header_input {
+        max-width: 254px;
+        width: 100%;
+    }
+    .food_search {
+        max-width: 236px;
+        width: 100%;
+        font-size: 19px;
+    }
+    .header {
+        padding: 4px 18px 20px 35px;
+    }
+    .footer_logo {
+        display: none;
+    }
+    .delivery_item {
+        width: 100px;
+        height: 100px;
+    }
+    .delivery_item_time1 {
+        font-size: 19px;
+    }
+    .delivery_item_time {
+        font-size: 20px;
+    }
+    .delivery_title {
+        font-size: 40px;
+    }
+
+    .food_sandwich {
+        display: flex;
+        flex-direction: column;
+    }
+    .salad_item {
+        margin-top: 20px;
+    }
+    .sale {
+        width: 100%;
+        max-width: 911px;
+        bottom: 4px;
+    }
+    .sale_info1 {
+        padding-right: 10px;
+        line-height: 55px;
+    }
+    .sale_info {
+        padding-left: 10px;
+        line-height: 55px;
+    }
+
+    .footer_item {
+        font-size: 13px;
+    }
+    .footer_card {
+        max-width: 220px;
+        width: 100%
+    }
+    .footer_social {
+        max-width: 220px;
+        width: 100%
+    }
+    .sircle_item {
+        display: block;
+        text-align: center;
+    }
+    .accordion_block {
+        display: none;
+    }
+
+    .heart_link_info {
+        display: none;
+    }
+    .footer_directory p {
+        display: none;
+    }
+    .small {
+        display: none;
+    }
+}
+@media  screen and (max-width: 768px){
+    .header {
+        padding: 4px 8px 20px 26px !important;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 166px !important;
+    }
+    .next1 {
+        top: 45% !important;
+    }
+    .footer_directory {
+        display: flex;
+        align-items: baseline !important;
+        justify-content: space-between;
+        background: #282828;
+        padding: 20px 43px 20px 35px;
+    }
+    .footer_social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 28px;
+        max-width: 209px !important;
+        width: 100%;
+        background: #FFFBFB;
+        border-radius: 221px;
+    }
+    .footer_info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        /* flex-flow: column; */
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+    .footer_card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 26px;
+        background: #FFFBFB;
+        border-radius: 221px;
+        max-width: 202px!important;
+        width: 100%;
+    }
+    .header_logo {
+        display: flex;
+        align-items: center;
+        flex-flow: row-reverse;
+        padding-left: 47px;
+        margin-right: 40px;
+    }
+    .food_search {
+        max-width: 408px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+        border: none;
+        font-size: 11px !important;
+        border-bottom: 2px solid #B5B5B5;
+        outline: 0;
+        padding: 10px 0;
+    }
+    .search_photo {
+        margin-left: 10px;
+    }
+    .begin_shopping {
+        display: none;
+    }
+    .circle_progress {
+        margin: 0;
+        max-width: 1385px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .sircle_item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        /*max-width: 113px;*/
+        width: 100%;
+        height: auto;
+    }
+    .progress-circle {
+        background-color: #ddd;
+        border-radius: 50%;
+        height: 54px;
+        position: relative;
+    }
+    .delivery_map_block {
+        display: none;
+    }
+    .delivery_map_block1 {
+        display: none;
+    }
+    .delivery_item_time1 {
+        font-size: 17px;
+    }
+    .delivery_title {
+        font-size: 37px;
+    }
+    .footer {
+        padding: 66px 40px 64px 8px;
+    }
+    .logo {
+        display: none;
+    }
+    .heart_text {
+        display: none;
+    }
+    .basket_info {
+        display: none;
+    }
+    .user_info {
+        display: none;
+    }
+    .header_signin {
+        width: 100%;
+        max-width: 146px;
+    }
+    .burger_text {
+        margin: 0;
+    }
+    .header_input {
+        display: none;
+    }
+    .accordion_block {
+        display: none;
+    }
+    /*.heart a img:nth-child(1) {*/
+    /*    display: none;*/
+    /*}*/
+    .footer_directory p {
+        display: none;
+    }
+    .header_input {
+        display: none !important;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .begin_shopping {
+        display: none;
+    }
+   .language_select {
+       margin-left: 69%;
+   }
+    .forLunch_show {
+        width: 100%;
+        max-width: 513px;
+        margin: 0 auto;
+    }
+    .footer_info {
+        display: none;
+    }
+    .footer {
+        display: block;
+    }
+    .accordion {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer_title {
+        color: black;
+    }
+    .footer_item {
+        color: #FFFFFF;
+    }
+    .accordion_block {
+        display: block;
+    }
+    .delivery_item_time1 {
+        font-size: 13px;
+    }
+    .footer{
+        padding-left:50px;
+    }
+    .footer_directory {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_card {
+        margin-bottom: 20px;
+    }
+    /*.heart a img:nth-child(1) {*/
+    /*    display: none;*/
+    /*}*/
+    .heart_link_info {
+        display: none;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .footer_directory p {
+        display: none;
+    }
+    .footer_directory {
+        padding: 20px 20px 20px 153px !important;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .begin_shopping {
+        display: block;
+    }
+    .language_select {
+        margin-left:50px;
+    }
+    .header_logo {
+        flex-direction: row-reverse;
+        margin-left: -27px;
+    }
+
+    .burger_text {
+        font-size: 11px;
+    }
+    .header_signin  {
+        margin-left: -53px;
+    }
+    .slick-track  p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+        color: #000000;
+    }
+    .food_title_text {
+        display: none;
+    }
+    .food_title_info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5A5A5A;
+    }
+    .food_price {
+        font-size: 16px;
+    }
+
+    .money_block {
+        display: flex;
+        align-items: center;
+    }
+    .icon_block a:first-child {
+        display: none;
+    }
+    .back_color a:first-child {
+        display: block;
+    }
+    .small {
+        width: 24px !important;
+        height: 24px;
+    }
+
+    .food_info_card {
+        margin: 0 0 10px 0;
+    }
+    .food_info_card {
+        margin-left: 5px!important;
+    }
+   .delivery_block {
+       display: none;
+   }
+   .food_itemTitle {
+       font-size: 20px;
+       color: #000;
+   }
+   .forLunch_page {
+       font-size: 15px;
+       line-height: 20px;
+       color: #000000;
+   }
+   .forLunch_show {
+       display: flex;
+       align-items: center;
+       margin-top: -74px;
+   }
+
+   .sale_info {
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 20px;
+       text-align: center;
+       color: #FFFFFF;
+   }
+   .sale_info1 {
+       background: rgba(163, 39, 42, 0.3);
+       backdrop-filter: blur(20px);
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 20px;
+       text-align: center;
+       color: #FFFFFF;
+   }
+   .delivery_title {
+       font-size: 25px;
+       line-height: 29px;
+       color: #000000;
+
+   }
+   .delivery_item {
+       height: 70px;
+       width: 70px;
+       background: #FFFFFF;
+       border: 5px solid #4A8D16;
+       box-sizing: border-box;
+       box-shadow: 0px 0px 25px #B3AFAF;
+   }
+   .delivery_item_time {
+       font-size: 13px;
+       line-height: 23px;
+       color: #000000;
+   }
+   .delivery_item_time1 {
+       font-style: normal;
+       font-weight: normal;
+       font-size: 13px;
+       line-height: 15px;
+       text-align: center;
+       color: #000000;
+   }
+   .footer_title {
+       margin: 0;
+       font-size: 16px;
+       line-height: 29px;
+       color: #E9E9E9;
+   }
+   .accordion {
+       background-color: #000!important;
+   }
+   .footer {
+       padding: 66px 10px 59px 8px;
+   }
+    .accordion:after {
+        content: '\002B';
+        color: #FFFFFF !important;
+        font-weight: bold;
+        font-size: 22px;
+        float: right;
+        margin-left: 5px;
+    }
+    .delivery_title {
+        margin-top: 50px;
+    }
+    .food_item {
+        margin-top: 25px;
+    }
+    .Delivery-dishes img {
+        width: 100%;
+        height: auto;
+    }
+    .burger_text {
+        display: none;
+    }
+    .burger_block {
+        margin: 5px 9px !important;
+    }
+    .next1 {
+        top: 47% !important;
+    }
+    .slider_dot{
+        text-align: center;
+    }
+     .heart a img:nth-child(1) {
+        display: none;
+    }
+    .heart>img:nth-child(1) {
+        display: block;
+    }
+
+    .image_food {
+        display: block;
+    }
+    .image_food img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .slideshow {
+        flex-wrap: wrap;
+    }
+    .image_food {
+        padding: 0;
+    }
+    .heart_link_info {
+        display: block;
+    }
+    .footer_social {
+        width: 100%;
+        max-width: 174px !important;
+    }
+    .footer_card {
+        width: 100%;
+        max-width: 178px !important;
+    }
+    .accordion_block {
+        display: block;
+    }
+    .footer {
+        display: none!important; ;
+    }
+    .footer_directory {
+        padding: 35px !important;
+    }
+}
+

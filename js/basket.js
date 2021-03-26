@@ -1,8 +1,8 @@
 let minus = document.querySelector('.minus')
 let plus_minus = document.querySelector('.plus_minus')
 let plus = document.querySelector('.plus')
-let prod_price = document.querySelector('#prod_price')
-let total_price = document.querySelector('#total_price')
+let prod_price = document.querySelector('.prod_price')
+let total_price = document.querySelector('.total_price')
 
 
 minus.addEventListener('click', () => {

@@ -1,0 +1,517 @@
+.food_info_card img {
+    width: 100%;
+    /*height: 100%;*/
+    object-fit: contain;
+}
+@media screen and (max-width: 2400px) {
+    .eat_card {
+        display: none;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .text0ne,.texttTwo,.textThree{
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+}
+@media screen and (max-width: 1920px) {
+    .eat_card {
+        display: none;
+    }
+    .accordion_block {
+        display: none;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+}
+
+
+@media screen and  (max-width: 1200px)  {
+    .header {
+        padding: 0;
+    }
+    .eat_card {
+        display: none;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 274px;
+        padding-right: 25px;
+    }
+  .lunch_card_food {
+      width: auto;
+      margin-top: 20px;
+  }
+    .form_flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 437px;
+    }
+    .footer {
+        display: block;
+        padding: 66px 127px 124px 82px;
+        background: #282828;
+        border-bottom: 1px solid #B3AFAF;
+    }
+    .footer_logo {
+        width: 100%;
+        max-width: 581px;
+        margin: 44px auto;
+        text-align: center;
+    }
+    .lunch_flex {
+        padding: 0 102px 0 35px;
+         display: block;
+    }
+
+    .footer_item {
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #C4C4C4;
+        list-style-type: none;
+    }
+    .header_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    .header_logo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .burger_block p {
+        display: none;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+}
+@media screen and (max-width: 920px){
+    .eat_card {
+        display: none;
+    }
+    .food_search {
+        margin-left: 56px;
+        max-width: 253px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+        border: none;
+        font-size: 16px;
+        border-bottom: 2px solid #B5B5B5;
+        outline: 0;
+        padding: 10px 0 0 13px;
+    }
+    .header_signin span {
+        display: none;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 144px;
+        padding-right: 25px;
+    }
+    .burger_block {
+        padding-left: 44px;
+        margin-top: 18px;
+        margin-right: 10px;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+}
+@media screen and  (max-width: 768px) {
+    .eat_card {
+        display: none;
+    }
+    .lunch_card_food {
+        display: flex;
+        width: 692px;
+        flex-wrap: wrap;
+    }
+    .food_info_card {
+        margin-left: 10px;
+    }
+    .footer_info {
+        display: block;
+        text-align: center;
+    }
+    .footer_card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 26px;
+        background: #FFFBFB;
+        border-radius: 221px;
+        max-width: 244px;
+        width: 100%;
+    }
+    .footer_social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 28px;
+        max-width: 218px;
+        width: 100%;
+        background: #FFFBFB;
+        border-radius: 221px;
+    }
+    .burger_block {
+        display: contents;
+        margin-left: -38px;
+        width: 100%;
+
+    }
+    .header_logo img {
+        margin-left: 10px;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+}
+
+
+@media screen  and  (max-width: 576px){
+    .eat_card {
+        display: none;
+    }
+    .lunch_card_food {
+        display: flex;
+        width: 516px;
+        flex-wrap: wrap;
+    }
+    .food_info_card {
+        margin-bottom: 20px;
+        max-width: 247px;
+        width: 100%;
+        padding: 31px 21px 11px 21px;
+        background: rgba(252, 255, 250, 0.3);
+        border: 1px solid #595959;
+        box-sizing: border-box;
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+    }
+    .footer_social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 28px;
+        max-width: 147px;
+        width: 100%;
+        background: #FFFBFB;
+        border-radius: 221px;
+    }
+    .footer_card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 26px;
+        background: #FFFBFB;
+        border-radius: 221px;
+        max-width: 147px;
+        width: 100%;
+    }
+    .footer_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 21px;
+        color: #E5E5E5;
+    }
+    .food_search {
+        margin-left: 18px;
+        max-width: 253px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 15%);
+        border: none;
+        font-size: 16px;
+        border-bottom: 2px solid #B5B5B5;
+        outline: 0;
+        padding: 10px 0 0 13px;
+    }
+    .header_signin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 20px;
+        max-width: 141px;
+        padding-right: 25px;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: none;
+    }
+    .filtr {
+        display: none;
+    }
+    .lunch_info_320 {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .eat_info {
+        display: flex;
+    }
+    .lunch_card_food {
+        display: none;
+    }
+    .eat_flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .eat-heart {
+        width: 100%;
+        max-width: 277px;
+    }
+    .eat-heart {
+        display: flex;
+        justify-content: space-between;
+    }
+    .eat_price {
+        width: 100%;
+        max-width: 277px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .eat_flex {
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 300px;
+    }
+    .eat_card {
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        justify-content: space-between;
+        border-bottom: 1px solid #c4c4c4;
+        padding-bottom: 10px;
+    }
+    .eat_panqeyq {
+        width: 100%;
+        height: 100%;
+    }
+    .eat_heart_photo {
+        width: 19px;
+        height: 17px;
+    }
+    .eat_basket {
+        width: 19px;
+        height: 17px;
+    }
+    .eat_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .price1_text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 13px;
+        color: #000000;
+    }
+    .price2_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .lunch_info {
+        display: none;
+    }
+    .lunch_card {
+        display: none;
+    }
+    .eat_card {
+        margin-bottom: 20px;
+    }
+    .basket-orange {
+        background: #FF9503;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 28px;
+        height: 27px;
+    }
+    .footer {
+        display: none;
+    }
+    .accordion_block {
+        display: block;
+    }
+    .accordion {
+        background-color: #000 !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .accordion:after {
+        content: '\002B';
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 22px;
+        float: right;
+        margin-left: 5px;
+    }
+    .seeMore {
+        margin: 41px 0 20px 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #358506;
+    }
+    .footer_directory {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #282828;
+        padding: 20px 43px 20px 35px;
+    }
+    .footer_card {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 26px;
+        background: #FFFBFB;
+        border-radius: 221px;
+        max-width: 147px;
+        width: 100%;
+    }
+    .text0ne,.texttTwo,.textThree {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        color: #FFFFFF;
+    }
+    .catalog_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    .salad_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+    .header_input {
+        display: none;
+    }
+    .header_signin  img {
+        width: 19px;
+        height: 17px;
+    }
+    .header_signin {
+        margin-left: 70px;
+    }
+    .header_logo {
+        display: flex;
+        align-items: center;
+    }
+    .filtr {
+        display: block;
+        background: rgba(196, 196, 196, 0.46);
+        padding: 16px 7px;
+        margin-bottom: 10px;
+    }
+    .filtr_info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        padding-left: 10px;
+    }
+    .lunch_info_320 {
+        display: block;
+    }
+    .pagination {
+        display: block;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .lunch_info_320 {
+        margin-top: 10px;
+    }
+}

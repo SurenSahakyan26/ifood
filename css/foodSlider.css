@@ -24,7 +24,7 @@
     border-radius: 50%;
 }
 .slick-dots li :hover {
-    background-color: black;
+    /*background-color: black;*/
 }
 
 /* Custom Arrow */
@@ -49,7 +49,7 @@
 }
 .next :hover {
     cursor: pointer;
-    color: black;
+    /*color: black;*/
 }
 
 @media screen and (max-width: 800px) {
@@ -86,6 +86,7 @@
     color: #000000;
 }
 .food_info_card {
+    height: auto;
     margin-left: 35px;
     max-width: 330px !important;
     width: 100% !important;
@@ -220,7 +221,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 310px;
+    max-width: 320px;
     width: 100%;
 }
 
@@ -358,16 +359,18 @@
 .delivery_map_block1 {
     display: flex;
     justify-content: space-between;
-    margin-left:216px;
     max-width: 1306px;
     width: 100%;
-    padding-left: 257px;
 }
 .delivery_block{
     background-image: url("../img/delivery.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 102px 0;
     width: 100%;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
 
 }
 .sircle_radius {
